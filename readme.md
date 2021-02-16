@@ -20,6 +20,6 @@
 
 ```const encoder = new Encoder({ buttonPin: 8, pin1: 7, pin2: 9 })```
 
-encoder includes method `onAction` that allow to assign event callback directly
+encoder includes method `onAction` that allows assigning event callback directly
 
 ```encoder.onAction(action => { console.log({action}) })```
